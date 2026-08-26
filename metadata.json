@@ -1,0 +1,8 @@
+{
+  "name": "HOT GYM",
+  "description": "Premium gym website in Narayanganj with modern workout instruments, certified trainers, pricing packages, shift schedules, and location details.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

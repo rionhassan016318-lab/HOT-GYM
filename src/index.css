@@ -1,0 +1,60 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Hind Siliguri', 'Plus Jakarta Sans', sans-serif;
+    background-color: #0A0A0A;
+    color: #F5F5F7;
+  }
+  
+  h1, h2, h3, .font-heading {
+    font-family: 'Hind Siliguri', 'Bebas Neue', 'Outfit', sans-serif;
+    letter-spacing: 0.02em;
+  }
+
+  .font-display {
+    font-family: 'Hind Siliguri', 'Outfit', sans-serif;
+  }
+}
+
+/* Sophisticated Dark gradient & metallic styles */
+.fire-gradient-text {
+  background: linear-gradient(135deg, #FF5722 0%, #FF8F00 50%, #FFC107 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.fire-gradient-bg {
+  background: linear-gradient(135deg, #FF5722 0%, #FF7043 50%, #FFB300 100%);
+}
+
+.fire-gradient-border {
+  border-color: #FF5722;
+  box-shadow: 0 0 20px -5px rgba(255, 87, 34, 0.25);
+}
+
+.dark-surface {
+  background-color: #121212;
+  border: 1px solid #262626;
+}
+
+.dark-surface-elevated {
+  background-color: #171717;
+  border: 1px solid #2E2E2E;
+}
+
+.metallic-accent {
+  background: linear-gradient(180deg, #2A2A2E 0%, #1A1A1E 100%);
+  border: 1px solid rgba(168, 169, 173, 0.2);
+}
+
+@keyframes pulse-subtle {
+  0%, 100% { opacity: 0.85; transform: scale(1); }
+  50% { opacity: 1; transform: scale(1.02); }
+}
+
+.animate-pulse-subtle {
+  animation: pulse-subtle 3s infinite ease-in-out;
+}
+
+
